@@ -8,14 +8,16 @@ https://github.com/concy777/EBI-Assessment.git
 
 2.Build and run the app using maven
 
-mvn package
-java -jar target/ebi-docker.jar
+mvn package java -jar target/ebi-docker.jar
+
 Alternatively, you can run the app without packaging it using -
 
 mvn spring-boot:run
+
 The app will start running at https://localhost:8443
 
 Explore Rest APIs
+
 The app defines following CRUD APIs.
 
 GET /persons
