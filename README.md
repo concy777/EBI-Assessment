@@ -26,14 +26,20 @@ GET /persons/{id}
 
 DELETE /persons/{id}
 
+
 Useful curl commands to test. It can be tested with swagger also: https://localhost:8443/swagger-ui.html
 
 
 
 
-Using the Dockerfile create the Docker image. From the directory of Dockerfile - docker build . -t ebi-docker
+Using the Dockerfile create the Docker image. 
+From the directory of Dockerfile :
 
-Run the Docker image (users-mysql) created in #4. docker build . -t ebi-docker
+docker build . -t ebi-docker
+
+Run the Docker image (ebi-docker) created. 
+
+docker build . -t ebi-docker
 
 
 Useful Docker commands
